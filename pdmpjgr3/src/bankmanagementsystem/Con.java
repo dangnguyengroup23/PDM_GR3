@@ -7,7 +7,7 @@ public class Con {
     
     public Con(){
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem","root","230292Huong&");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem","root","123456789");
             statement = connection.createStatement();
         }catch(Exception e){
             e.printStackTrace();
